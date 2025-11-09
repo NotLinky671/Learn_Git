@@ -29,8 +29,17 @@ git push -u origin main
 ```bash
 git pull origin main --rebase
 ```
+`git pull`
+> **拉取并且合并(git fetch + git merge)**
+
 `--rebase`的作用是：
 > **把本地提交接到远程最新版本的后面，而不是合并。**
+
+### 拉取远程不修改本地
+```bash
+git fetch
+```
+> **从远程仓库下载最新的分支和提交信息，但不修改你的本地代码。**
 
 ## 切换分支
 ```bash
