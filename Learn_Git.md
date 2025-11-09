@@ -36,3 +36,18 @@ git pull origin main --rebase
 ```bash
 git switch -c dev
 ```
+
+## 查看本地分支
+```bash
+git branch
+```
+
+## 查看远程分支
+```bash
+git branch -r
+```
+
+## 查看所有分支
+```bash
+git branch -a
+```
