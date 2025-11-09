@@ -31,3 +31,8 @@ git pull origin main --rebase
 ```
 `--rebase`的作用是：
 > **把本地提交接到远程最新版本的后面，而不是合并。**
+
+## 切换分支
+```bash
+git switch 你想切换的分支
+```
