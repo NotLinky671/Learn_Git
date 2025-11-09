@@ -65,3 +65,8 @@ git branch -r
 ```bash
 git branch -a
 ```
+
+## 合并分支
+```bash
+git merge 你想合并的分支
+```
